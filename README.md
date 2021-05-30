@@ -207,10 +207,4 @@ Dette er opgaver inden for Begreber og fagtermer vi skal kunne i programmering t
 						<p class="c2">
 							<span class="c3">IDE (eller i processing PDE) </span>
 							<span class="c5 c4">- En IDE er et udviklingsmilj&oslash;. Dette betyder at der for eksempel b&aring;de er en editor og en compiler. IntelliJ er en IDE.</span>
-						</p>
-						<div class="c15">
-							<p class="c19">
-								<a href="#cmnt_ref1" id="cmnt1">[a]</a>
-								<span class="c1">usikker p&aring;</span>
-							</p>
-						</div>
+						
