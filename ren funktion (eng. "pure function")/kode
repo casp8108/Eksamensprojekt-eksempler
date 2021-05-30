@@ -1,1 +1,16 @@
+//Hvad er en "ren funktion" og fordele?
+//  En ren funktion er en funktion der ikke tager noget input andet end det man giver den. Altså, den tager ikke input fra koden.
+//Eksemplificer med kode eksempler.
+
+//Dette er et eksempel på en ren funktion.
+void SejPrint(String ren = "hej jeg ren"){
+  print(ren);
+}
+
+//Dette er et eksempel på uren funktion.
+String uren = "hej jeg uren";
+
+void TaberPrint{
+  print(uren);
+}
 
