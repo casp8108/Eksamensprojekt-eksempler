@@ -1,1 +1,67 @@
+//Polymorfisme er et objekts evne til at antage mange former. Den mest almindelige brug af polymorfisme i OOP opstår, når en forældreklassereference bruges til at henvise til et underordnet objekt
+//Her er forældreklassen Figure og det underordenprojekt kan være firekant
+
+Figure figure = new Firekant(new PVector(10, 10), new PVector(50, 50), "nomal polymofi");
+
+//dette kan bruges vi du ville have en liste med en masse underklasser fx figure og ville bruge de samme funktioner til at tegne dem
+Figure f = new Firekant(new PVector(100, 80), new PVector(50, 50), "liste polymofi");
+Figure f2 = new Firekant(new PVector(10, 80), new PVector(50, 50), "liste polymofi");
+Figure[] fArray = {f, f2 };
+
+void setup() {
+  size(500, 500);
+}
+
+void draw() {
+  //her tegner vi den ene figure
+  figure.tegn();
+  
+  //her bruger vi listen med de forskellige figure
+  for(int i = 0; i<fArray.length; i++){
+    fArray[i].tegn();
+
+  }
+}
+
+
+
+class Figure {
+  PVector pos, size;
+  String s;
+  Figure(PVector pos, PVector size, String s) {
+    this.pos = pos;
+    this.size = size;
+    this.s = s;
+  }
+
+  void tegn() {
+  }
+}
+
+
+class Cirkel extends Figure {
+
+  Cirkel(PVector pos, PVector size, String s) {
+    super(pos, size, s);
+  }
+
+  void tegn() {
+
+    ellipse(pos.x, pos.y, size.x, size.y);
+
+    text(s, pos.x, pos.y+size.y*1.25f);
+  }
+}
+
+class Firekant extends Figure {
+  Firekant(PVector pos, PVector size, String s) {
+    super(pos, size, s);
+  }
+
+  void tegn() {
+    rect(pos.x, pos.y, size.x, size.y);
+
+    text(s, pos.x, pos.y+size.y*1.25f);
+  }
+}
 
