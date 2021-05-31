@@ -1,1 +1,24 @@
+// rekursion er funktioner som kalder sig slev dette kan fx en funktion som tæller ned og skriver det ud i konsolen
 
+void setup(){
+  taelNed(10)
+}
+
+void taelNed(int tæller)
+  {
+    System.out.print(tæller+" ");
+    if (tæller>0) tælNed(tæller-1); // tælNed() kalder sig selv !!
+  }
+
+
+// ville skrive
+//10
+//9
+//8
+//7
+//6
+//5
+//4
+//3
+//2
+//1
