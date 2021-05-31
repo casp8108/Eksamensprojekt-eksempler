@@ -19,3 +19,4 @@ int i = 1;
 //eksempel på ikek primietiv datatype er:
 String tekst = "Dette er ikke en primetiv datatype";
 // grunden til en sting ikke er primetiv er den er fyld med chars
+
