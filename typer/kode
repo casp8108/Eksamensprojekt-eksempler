@@ -1,1 +1,14 @@
+/*
+Java-programmeringssprogets typer er opdelt i to kategorier: primitive typer og referencetyper. De primitive typer er booleantypen og de numeriske typer. 
+De numeriske typer er de integrerende typer byte, short, int, longog char, og floating-point typer floatog double. Referencetyperne er klassetyper , 
+interface-typer og array-typer. Der er også en særlig null-type. Et objekt er en dynamisk oprettet forekomst af en klassetype eller en dynamisk oprettet matrix. 
+Værdierne for en referencetype er referencer til objekter. Alle objekter, inklusive arrays, understøtter klassemetoderne Object 
+. Strengbogstaver er repræsenteret af Stringobjekter.
 
+*/
+
+//Den ene type kan fx være det er en primetiv datatype
+int i = 10;
+
+//den anden refere til en bestemt del af humkomlsen. altså ses mest ved klasser:
+Taber taber = new Taber();
