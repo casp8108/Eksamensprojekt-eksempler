@@ -1,1 +1,3 @@
-
+//Se: Objekt. Men flere af dem. Altså instans af en klasse
+//dette er et eksempel på et obejkt af klassen firekant
+Figure figure = new Firekant(new PVector(10, 10), new PVector(50, 50), "nomal polymofi");
