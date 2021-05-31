@@ -1,1 +1,10 @@
+Her er et eksempel på pseudokode, og pseudokode af polymorphism også
 
+  class LilleMand
+  float højde
+
+  class LilleMandKarate extends LilleMan
+
+  class LilleMandFemboy extends LilleMan
+  
+  Og det var eksempel på pseudokode. Det er ret nemt. Alt kode der ikke rigtig ville køre, men stadig forklarer en ide i kode er pseudokode, det behøver knap nok bestå af bogstaver.
