@@ -1,0 +1,21 @@
+/*
+
+der er 8 primitive datatyper og de er:
+boolean data type
+byte data type
+char data type
+short data type
+int data type
+long data type
+float data type
+double data type
+
+resten er ikke primetive datatyper
+*/
+
+//eksmpel på dirkelartion på primitive datatype 
+int i = 1;
+
+//eksempel på ikek primietiv datatype er:
+String tekst = "Dette er ikke en primetiv datatype";
+// grunden til en sting ikke er primetiv er den er fyld med chars
