@@ -1,0 +1,12 @@
+// Det man putter i et if statement. For eksempel en boolean. kan være Sammenlignings operatorer f.eks. && || <> eller == og Sammenligninger 
+
+void draw() {
+  //vi ville vise det med et tilfældigt tal er lig med 50 eller større /mindre end 50
+  
+  if((int) random(1,100) == 50){
+    println("lig med 50");
+  }
+  if((int) random(1,100) < 50||(int) random(1,100) > 50 ){
+    println("større eller mindre end 50");
+  }
+}
